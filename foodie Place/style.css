@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #C0EBA6;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+nav{
+    background-color: lime;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease-in;
+    font-size: 18px;
+
+}
+nav ul a:hover{
+    background-color: green;
+    color: white
+}
+.items{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+padding: 30px 20px;
+grid-column-gap: 20px;
+grid-row-gap: 30px;
+
+}
+.items img{
+    transform: scale(1.05s);
+}
+.three h1{
+    padding: 2px;
+}
+table{
+    margin: 6px;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse:collapse ;
+    text-align: center;
+    padding: 5px; 
+    margin-left: 470px;
+    width: 30%;
+    background-color:lawngreen;
+    color:black;
+}
+table,th,td:hover{
+    cursor: pointer;
+    color:brown;
+}
+.one{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.one img{
+    margin-left: 350px;
+
+}
+.one h4{
+    padding: 5px;
+    text-align: center;
+}
+.one button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+.one button:hover{
+    transform: scale(1.04);
+}
+.two p{
+    text-align: center;
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+footer h1,h5{
+    padding: 5px;
+    text-align: center;
+    background-color: green;
+    color: white
+}
+.end img{
+    position: absolute;
+    z-index: -1; 
+    width: 350px;
+    margin-left: 500px;
+    
+}
+.end pre{
+    text-align: center;
+    padding: 10px;
+}
